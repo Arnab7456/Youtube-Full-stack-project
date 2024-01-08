@@ -1,6 +1,5 @@
 # YouTube Clone
 
-This project is a clone of the popular video-sharing platform YouTube, developed as a part of Akshay Saini's Namaste React course. It is built using modern front-end technologies, including React, Redux Toolkit, TailwindCSS, and other libraries.
 
 ## Features
 
