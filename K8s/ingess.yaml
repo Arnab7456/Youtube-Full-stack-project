@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: youtube-full-stack-project-ingress
+spec:
+  rules:
+    - host: youtube-full-stack-project.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: youtube-full-stack-project-service
+                port:
+                  number: 80
